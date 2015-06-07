@@ -61,8 +61,16 @@
 #}
 {{ page.main_menu }}
 <div class="container">
-
-    {{ page.breadcrumb }}
+    <header class="row">
+        <div class="col-sm-12">
+            {{ page.header }}
+        </div>
+    </header>
+    {% if page.breadcrumb %}
+        <nav class="row">
+            {{ page.breadcrumb }}
+        </nav>
+    {% endif %}
 
     {{ page.highlighted }}
 
@@ -85,7 +93,7 @@
             {{ page.content }}
         </div>
         <div class="col-sm-4">
-            {{ page.sidebar }}
+            {{ page.sidebar_first }}
         </div>
     </div>
 </div>

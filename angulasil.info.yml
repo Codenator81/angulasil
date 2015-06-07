@@ -3,6 +3,8 @@ type: theme
 description: 'Angularjs with Bootstrap UI and Bootstrap Less'
 version: VERSION
 core: 8.x
+dependencies:
+  - twig_gear
 stylesheets-remove:
   - core/assets/vendor/normalize-css/normalize.css
   - core/modules/system/css/system.module.css
@@ -12,9 +14,11 @@ libraries:
   - angulasil/main-style
 regions:
   header: Header
+  breadcrumb: Breadcrumb
   help: Help
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   main_menu: 'Main menu'
   content: Content
-  sidebar: 'Sidebar'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
