@@ -1,0 +1,9 @@
+main-style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/style.css: {}
+  js:
+    assets/js/angular.min.js: {}
+    assets/js/ui-bootstrap-tpls.js: {}
+    assets/scripts/app.js: {}
