@@ -1,1 +1,3 @@
-/assets/css/*
+assets/bower_components
+assets/node_modules
+
