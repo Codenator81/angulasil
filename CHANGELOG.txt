@@ -1,2 +1,3 @@
 07.06.2015
 Add breadcrumb region and template
+Add nav tab
