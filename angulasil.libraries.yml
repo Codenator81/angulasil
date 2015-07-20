@@ -4,6 +4,6 @@ main-style:
     theme:
       assets/css/style.css: {}
   js:
-    assets/bower_components/angular/angular.min.js: {}
+    assets/bower_components/angularjs/angular.min.js: {}
     assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js: {}
-    assets/scripts/app.js: {}
+    assets/prod/scripts/app.js: {}

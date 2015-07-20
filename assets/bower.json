@@ -1,0 +1,14 @@
+{
+  "name": "Angulasil",
+  "version": "0.0.1",
+  "authors": [
+    "Codenator81 <codenator81@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "fontawesome": "~4.3.0",
+    "angularjs": "~1.4.3",
+    "angular-bootstrap": "~0.13.0"
+  }
+}
