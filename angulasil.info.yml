@@ -1,10 +1,9 @@
 name: Angulasil
 type: theme
-description: 'Angularjs with Bootstrap UI and Bootstrap Less'
+description: 'Angularjs with Bootstrap UI and Bootstrap SASS'
 version: VERSION
 core: 8.x
-dependencies:
-  - twig_gear
+
 stylesheets-remove:
   - core/assets/vendor/normalize-css/normalize.css
   - core/modules/system/css/system.module.css

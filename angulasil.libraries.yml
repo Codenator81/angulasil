@@ -2,7 +2,7 @@ main-style:
   version: VERSION
   css:
     theme:
-      assets/css/style.css: {}
+      assets/prod/css/style.css: {}
   js:
     assets/bower_components/angularjs/angular.min.js: {}
     assets/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js: {}
