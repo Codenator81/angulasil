@@ -32,7 +32,7 @@
     {% for item in items %}
       {% if item.below %}
         <li {{ item.attributes.addClass('dropdown').removeClass('menu-item', 'menu-item--expanded')|swapClass('menu-item--active-trail', 'active') }} dropdown>
-          <a href="{{ item.url }}" class="dropdown-toggle" data-toggle="dropdown" dropdown-toggle>{{ item.title }} <b
+          <a href="{% if item.url.RouteName() != "<none>" %}{{ item.url }}{% endif %}" class="dropdown-toggle" data-toggle="dropdown" dropdown-toggle>{{ item.title }} <b
                     class="caret"></b></a>
           <ul class="dropdown-menu">
             {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
@@ -40,7 +40,11 @@
         </li>
       {% else %}
         <li {{ item.attributes.removeClass('menu-item')|swapClass('menu-item--active-trail', 'active') }}>
-          {{ link(item.title, item.url) }}
+          {% if item.url.RouteName() == "<none>" %}
+            <a>{{ item.title }}</a>
+          {% else %}
+            {{ link(item.title, item.url) }}
+          {% endif %}
         </li>
       {% endif %}
     {% endfor %}

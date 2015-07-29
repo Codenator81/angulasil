@@ -13,6 +13,7 @@ Features:
     - SCSS, Gulp watcher with autoprefixer and map css
     - FontAwesome
     - Breadcrumbs
+    - Empty link in menu if route in menu = "/<none>"
 
 Installation:
 In console from drupal root installation navigate to themes and type:
