@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Angulasil theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function angulasil_preprocess_html(&$variables) {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function angulasil_preprocess_page(&$variables) {
+
+}
