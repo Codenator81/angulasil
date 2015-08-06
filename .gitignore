@@ -3,3 +3,4 @@ assets/node_modules
 assets/prod/*
 assets/dev/sass/bootstrap/
 assets/dev/sass/font-awesome/
+.idea/
