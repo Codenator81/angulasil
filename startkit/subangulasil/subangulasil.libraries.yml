@@ -1,0 +1,5 @@
+main-style:
+  version: VERSION
+  css:
+    theme:
+      assets/prod/css/style.css: {}

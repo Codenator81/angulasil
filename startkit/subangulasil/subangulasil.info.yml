@@ -1,0 +1,9 @@
+name: Sub Angulasil
+type: theme
+description: 'Sub theme of Angulasil'
+base theme: angulasil
+version: VERSION
+core: 8.x
+
+libraries:
+  - subangulasil/main-style

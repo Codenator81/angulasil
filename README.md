@@ -14,6 +14,7 @@ Features:
     - FontAwesome
     - Breadcrumbs
     - Empty link in menu if route in menu = <code>"/<none>"</code>
+    - starterkit
 
 Installation:
 In console from drupal root installation navigate to themes and type:
@@ -21,6 +22,7 @@ In console from drupal root installation navigate to themes and type:
 git clone http://git.drupal.org/sandbox/oles89/2502029.git angulasil
 cd angulasil
 
+If you wont work on theme without subtheme:
 After that navigate to themes/angulasil/assets
 
 npm install
@@ -29,8 +31,15 @@ gulp install
 
 
 Using:
+
 in themes/angulasil/assets type gulp watch for compile and watch sscs
 
+Copy subangulasil inside starterkit to themes for using subtheme. 
+In assets directory type first time:
+ntm install
+gulp css
+
+After just type gulp watch to compile scss via watcher
 
 Any ideas welcomed. Just create issue.
 
