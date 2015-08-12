@@ -31,7 +31,7 @@
     {% endif %}
     {% for item in items %}
       {% if item.below %}
-        <li {{ item.attributes.addClass('dropdown').removeClass('menu-item', 'menu-item--expanded')|swapClass('menu-item--active-trail', 'active') }} dropdown>
+        <li {{ item.attributes.addClass('dropdown').removeClass('menu-item', 'menu-item--expanded')|tg_swapClass('menu-item--active-trail', 'active') }} dropdown>
           <a href="{% if item.url.RouteName() != "<none>" %}{{ item.url }}{% endif %}" class="dropdown-toggle" data-toggle="dropdown" dropdown-toggle>{{ item.title }} <b
                     class="caret"></b></a>
           <ul class="dropdown-menu">
@@ -39,7 +39,7 @@
           </ul>
         </li>
       {% else %}
-        <li {{ item.attributes.removeClass('menu-item')|swapClass('menu-item--active-trail', 'active') }}>
+        <li {{ item.attributes.removeClass('menu-item')|tg_swapClass('menu-item--active-trail', 'active') }}>
           {% if item.url.RouteName() == "<none>" %}
             <a>{{ item.title }}</a>
           {% else %}

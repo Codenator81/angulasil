@@ -56,7 +56,7 @@ label_display == 'visually_hidden' ? 'visually-hidden',
         <div{{ title_attributes.addClass(title_classes) }}>{{ label }}</div>
     {% endif %}
     {% if field_name == 'field_tags' %}
-    <div{{ content_attributes.addClass('field-items btn-group') }}>
+    <div{{ content_attributes.addClass('field-items') }}>
         {% for item in items %}
             {{ item.content }}
         {% endfor %}
