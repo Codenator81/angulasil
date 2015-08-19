@@ -41,6 +41,8 @@ gulp css
 
 After just type gulp watch to compile scss via watcher
 
+This project on GitHub https://github.com/Codenator81/angulasil
+
 Any ideas welcomed. Just create issue.
 
 <h2>AUTHOR/MAINTAINER</h2>
