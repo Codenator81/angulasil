@@ -1,6 +1,6 @@
 {
   "name": "codenator81/angulasil",
-  "description": "Theme based on Twitter Bootstrap, Bootstrap UI and AngularJs",
+  "description": "Drupal Theme based on Twitter Bootstrap, Bootstrap UI and AngularJs",
   "type": "drupal-theme",
   "homepage": "https://www.drupal.org/sandbox/oles89/2502029",
   "authors": [
@@ -12,5 +12,7 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {}
+  "require": {
+      "codenator81/twig_gear": "dev-8.x-1.x"
+  }
 }
