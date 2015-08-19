@@ -1,0 +1,16 @@
+{
+  "name": "drupal/angulasil",
+  "description": "Theme based on Twitter Bootstrap, Bootstrap UI and AngularJs",
+  "type": "drupal-theme",
+  "homepage": "https://www.drupal.org/sandbox/oles89/2502029",
+  "authors": [
+    {
+      "name": "Aleksandrs Poltarjonoks",
+      "email": "codenator81@gmail.com",
+      "homepage": "https://github.com/Codenator81",
+      "role": "Maintainer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}
